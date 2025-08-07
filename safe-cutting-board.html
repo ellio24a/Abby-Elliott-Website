@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <title>Abby Elliott – Portfolio</title>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+  <div class="nav-left">
+    <div class="site-name">Abby Elliott</div>
+    <div class="site-subtitle">Woodworker & Developer</div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="woodworking.html">Woodworking</a></li>
+    <li><a href="computer-science.html">Technical Projects</a></li>
+    <li class="dropdown">
+      <a href="#">Experience</a>
+      <ul class="dropdown-menu">
+        <li><a href="cs-experience.html">Computer Science</a></li>
+        <li><a href="woodworking-experience.html">Woodworking</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contact Me</a></li>
+  </ul>
+</nav>
+
+</header>
+
+
+<section class="project-entry">
+   <div class="project-header">
+    <a href="computer-science.html" class="inline-back-arrow">&#8592;</a>
+    <h2>Cut detection sensor</h2>
+  </div>
+
+  <div class="project-gallery">
+    <figure>
+      <img src="images/Misc Tech/ironmanhand.JPG" alt="Hand mounted sensor">
+      <figcaption>Hand mounted sensor</figcaption>
+    </figure>
+     <figure>
+      <img src="images/Endgrain/finishedendgraintop.png" alt="Finished cutting board">
+      <figcaption>Finished cutting board</figcaption>
+    </figure>
+  </div>
+
+  <div class="project-description">
+    <p> This project began with the goal of blending my woodworking experience with interactive tech. I wanted to build something both practical and educational, so I designed a cutting board that included a proximity safety feature. The idea was to use a Circuit Playground Express (CPX) and a distance sensor to alert the user when their hand came too close to the knife—helping to prevent accidents and adding a fun challenge to my build.
+
+I didn’t follow the traditional end-grain process, which would involve gluing strips of wood and then slicing them into blocks. Instead, I individually cut and glued each block, which made the project much more time-consuming. After laying out the design, I glued all the pieces together and moved on to smoothing. Due to the board’s size and material, using a planer wasn't an option, so I flattened everything with a handheld belt sander instead. This was tedious but gave me the control I needed to get a smooth finish.
+
+Once the board was shaped, I created a custom wearable sensor mount using a wooden ring I had made earlier. I cut a groove into the ring and secured the sensor with glue, then soldered the wiring to the CPX. The final setup allowed the sensor to sit close to the user’s fingertips while remaining out of the way.
+
+To finish it off, I oiled the board with mineral oil, which took several days to absorb due to the end-grain orientation. Although my final video mysteriously disappeared, the completed board was a huge success and was even featured in our school’s end-of-semester showcase. It was one of the most ambitious and rewarding projects I’ve done—pushing both my technical and creative skills to the next level. </p>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p class="footer-name">Abby Elliott</p>
+    <div class="footer-icons">
+      <a href="mailto:ellio24a@mtholyoke.edu" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/abby-elliott-425474254/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/ellio24a" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
