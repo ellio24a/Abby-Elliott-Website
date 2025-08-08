@@ -709,3 +709,68 @@ nav a:hover {
 .inline-back-arrow:hover {
   color: #4d8442;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-left {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    background: transparent;
+    box-shadow: none;
+    padding-left: 1rem;
+  }
+
+  .dropdown-menu li {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-wall {
+    display: grid;
+    grid-template-columns: 1fr; /* Stack gallery items */
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+
+  .overlay-text {
+    font-size: 1rem;
+  }
+}
+
